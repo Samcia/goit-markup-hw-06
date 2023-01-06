@@ -582,7 +582,7 @@ body {
 .form-style {
   display: flex;
   flex-direction: column;
-  padding: 10px 40px 0px 40px;
+  padding: 0px 40px 0px 40px;
   font-weight: 400;
   font-size: 12px;
   color: rgba(117, 117, 117, 1);
@@ -592,20 +592,20 @@ body {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding: 11px 0px 11px 40px;
-  margin-top: 8px;
+  margin-top: 4px;
+  outline: none;
 }
-.input-style:hover,
 .input-style:focus {
   border: 1px solid var(--logo-color);
   border-radius: 4px;
 }
-.input-style::after {
-  border: 1px solid var(--logo-color);
+.input-style:focus + svg {
   fill: var(--logo-color);
 }
 .form-svg {
   position: relative;
-  margin: -30px 11px 10px 12px;
+  bottom: 30px;
+  left: 12px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -617,10 +617,10 @@ body {
   padding: 11px 0px 11px 12px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  margin-top: 8px;
+  margin-top: 4px;
+  outline: none;
 }
-.textarea-style:hover,
-.text-area-style:focus {
+.textarea-style:focus {
   border: 1px solid var(--logo-color);
   border-radius: 4px;
 }
@@ -639,6 +639,9 @@ body {
   margin-right: 7px;
   line-height: 24px;
   letter-spacing: 0.03em;
+  width: 16px;
+  height: 15px;
+  outline: none;
 }
 .statement-class {
   color: var(--logo-color);
