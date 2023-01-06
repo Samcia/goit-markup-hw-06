@@ -275,13 +275,16 @@
           </div>
           <div class="join-us">
             <h3 class="join"> ZAPISZ SIĘ DO NEWSLETTERA</h3>
-            <form>
+            <form class="sign-up-form">
             <label>
-              <input type="email" name="email" class="signup-form" placeholder="E-mail"/>
+              <input type="email" name="email" class="signup-input" placeholder="E-mail"/>
             </label>
-          </form><div class="btn-submit-ftr">
-          <button type="submit" class="sign-up-btn" data-modal-open>Zapisz się</button>
-          </div></div></div>
+          <button type="submit" class="sign-up-btn" >
+            Zapisz się
+            <svg width="24" height="24"><use href="./images/icons.svg#form-send"></use></svg>
+          </button>
+        </form>  
+      </div>
 
           <div class="overlay is-hidden" data-modal>    
           <div class="modal"><button type="button" data-modal-close class="close-btn">X</button>

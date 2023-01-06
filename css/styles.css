@@ -475,32 +475,29 @@ body {
   list-style: none;
   display: flex;
 }
-
-.signup-form {
+.sign-up-form {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  column-gap: 12px;
+}
+.signup-input {
   background-color: var(--ftr-background);
   font-size: 16px;
   cursor: pointer;
-  font-weight: 700;
-  display: flex;
-  justify-content: center;
+  font-weight: 400;
   border-radius: 4px;
-  position: absolute;
-  width: 360px;
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  margin-top: 20px;
   padding: 15px;
-  font-weight: 400px;
 }
-.btn-submit-ftr {
-  margin-top: 20px;
-  margin-left: 405px;
+.signup-input:hover,
+.signup-input:focus {
+  background-color: var(--ftr-background);
 }
 .sign-up-btn {
-  position: absolute;
-  width: 200px;
-  height: 50px;
+  padding: 12px 24px 12px 42px;
   background-color: var(--logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -512,6 +509,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  column-gap: 24px;
+}
+.sign-up-btn svg {
+  fill: #ffffff;
 }
 .circle {
   padding: 12px;
