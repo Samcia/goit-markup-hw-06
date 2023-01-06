@@ -184,11 +184,6 @@ body {
   border-radius: 4px;
   padding: 10px 40px;
 }
-.first-button:hover,
-.first-button:focus {
-  background-color: var(--logo-color);
-  color: var(--logo-ftr);
-}
 
 .parent-style {
   display: flex;
@@ -480,6 +475,44 @@ body {
   list-style: none;
   display: flex;
 }
+
+.signup-form {
+  background-color: var(--ftr-background);
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  position: absolute;
+  width: 360px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  margin-top: 20px;
+  padding: 15px;
+  font-weight: 400px;
+}
+.btn-submit-ftr {
+  margin-top: 20px;
+  margin-left: 405px;
+}
+.sign-up-btn {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  background-color: var(--logo-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--logo-ftr);
+  font-weight: 700px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .circle {
   padding: 12px;
   background-color: var(--social-items-bg);
@@ -495,6 +528,10 @@ body {
 }
 .circle:hover svg {
   fill: var(--logo-color);
+}
+.email {
+  margin-bottom: 20px;
+  background-color: var(--ftr-background);
 }
 .overlay {
   position: fixed;
