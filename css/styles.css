@@ -462,7 +462,7 @@ body {
 .join-us {
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
+  column-gap: 30px;
   margin-top: 12px;
   margin-left: 70px;
 }
@@ -569,6 +569,100 @@ body {
   top: 8px;
   right: 8px;
   cursor: pointer;
+  background-color: #ffffff;
+}
+
+.form-header {
+  padding: 40px 40px 12px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+}
+.form-style {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 40px 0px 40px;
+  font-weight: 400;
+  font-size: 12px;
+  color: rgba(117, 117, 117, 1);
+}
+
+.input-style {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  padding: 11px 0px 11px 40px;
+  margin-top: 8px;
+}
+.input-style:hover,
+.input-style:focus {
+  border: 1px solid var(--logo-color);
+  border-radius: 4px;
+}
+.input-style::after {
+  border: 1px solid var(--logo-color);
+  fill: var(--logo-color);
+}
+.form-svg {
+  position: relative;
+  margin: -30px 11px 10px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form-svg:focus {
+  fill: var(--logo-color);
+}
+.textarea-style {
+  padding: 11px 0px 11px 12px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  margin-top: 8px;
+}
+.textarea-style:hover,
+.text-area-style:focus {
+  border: 1px solid var(--logo-color);
+  border-radius: 4px;
+}
+.check-label {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: rgba(117, 117, 117, 1);
+  margin: 20px 0px 30px 54px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.form-check {
+  margin-right: 7px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+.statement-class {
+  color: var(--logo-color);
+  text-decoration: underline;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  margin: 0px 3px 0px 3px;
+}
+
+.button-form {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 76px;
+  background-color: var(--logo-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  color: var(--logo-ftr);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  margin: 0px 164px 40px 164px;
 }
 .social-items-pf {
   fill: var(--logo-ftr);

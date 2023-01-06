@@ -288,7 +288,34 @@
 
           <div class="overlay is-hidden" data-modal>    
           <div class="modal"><button type="button" data-modal-close class="close-btn">X</button>
-            </div>
+          <form>
+          <label class="form-header">Zostaw swoje dane w formularzu poniżej</label>  
+          <label class="form-style">
+              Imię
+              <input type="text" name="username" class="input-style"/>
+              <svg width="18" height="18" class="form-svg"><use href="./images/icons.svg#form-person"></use></svg>
+            </label>
+            <label class="form-style" >
+              Telefon
+              <input type="tel" name="phone-number" minlength="9" maxlength="11" class="input-style"/>
+              <svg width="18" height="18" class="form-svg"><use href="./images/icons.svg#form-phone"></use></svg>
+            </label>
+            <label class="form-style">
+              Email
+              <input type="email" name="email" class="input-style"/>
+              <svg width="18" height="18" class="form-svg"><use href="./images/icons.svg#form-email"></use></svg>
+            </label>
+            <label class="form-style">
+              Komentarz
+              <textarea name="feedback" rows="5" placeholder="Wprowadź tekst"  class="textarea-style"></textarea>
+            </label>
+            <label class="check-label">
+              <input type="checkbox" name="statement" value="statement" class="form-check"/> 
+              Oświadczam iż akceptuję <p class="statement-class">Regulamin </p> i <p class="statement-class">Politykę Prywatności.</p>
+            </label>
+            <button type="submit" class="button-form">Wyślij</button>
+          </form> 
+          </div>
           </div>
         </footer>
         <script src="./js/modal.js">
