@@ -668,7 +668,7 @@ body {
   border: 2px solid var(--logo-color);
 }
 .form__checkbox:checked + .form__checkbox--div svg {
-  display: block !important;
+  display: block;
   fill: var(--logo-ftr);
 }
 .form--statement {
