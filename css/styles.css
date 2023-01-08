@@ -663,10 +663,12 @@ body {
 }
 .form__svg-check svg {
   position: relative;
-  appearance: none;
+  display: none;
 }
 .form__checkbox--div:checked {
   position: relative;
+  background: var(--logo-color);
+  fill: var(--logo-ftr);
 }
 .form-button {
   display: inline-flex;
