@@ -677,8 +677,8 @@ body {
   align-items: center;
   justify-content: center;
   fill: var(--logo-ftr);
-  background-size: contain;
 }
+
 .form--statement {
   color: var(--logo-color);
   text-decoration: underline;
