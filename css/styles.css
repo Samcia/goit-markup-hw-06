@@ -394,7 +394,6 @@ body {
 
 .customers__svg {
   fill: var(--social-items);
-  padding: 18px 32px;
 }
 .footer {
   background-color: var(--ftr-background);
@@ -515,7 +514,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   padding: 15px;
-  width: calc(100% - 30px);
+  width: calc(100% - 15px);
 }
 .sign-up__email:hover,
 .sign-up__email:focus {
@@ -529,7 +528,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   color: var(--logo-ftr);
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   display: flex;
   justify-content: center;
